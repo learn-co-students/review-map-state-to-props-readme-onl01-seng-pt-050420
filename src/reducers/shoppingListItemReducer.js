@@ -14,6 +14,7 @@ export default function shoppingListItemReducer(state = {
       return Object.assign({}, state, {
         users: state.users.concat(state.users.length + 1)
       });
+      
 
     default:
       return state;
